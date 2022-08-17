@@ -13,7 +13,7 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name='login' component={Login} 
+        <Stack.Screen name='Login' component={Login} 
         options={{ headerShown: false }} />
          <Stack.Screen name='Signup' component={Signup} 
         options={{ headerShown: false }} />
